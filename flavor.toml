@@ -1,0 +1,51 @@
+[manager]
+cwd = { fg = "white" }
+preview_hovered = { reversed = true }
+border_symbol = " "
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "gray", bg = "reset" }
+
+mode_normal = { bg = "darkgray", bold = true }
+mode_select = { bg = "cyan", bold = true }
+
+permissions_t = { fg = "reset" }
+permissions_r = { fg = "reset" }
+permissions_w = { fg = "reset" }
+permissions_x = { fg = "reset" }
+permissions_s = { fg = "darkgray" }
+
+[completion]
+icon_file    = ""
+icon_folder  = ""
+icon_command = ""
+
+[filetype]
+rules = [
+    { name = "*/", is = "orphan", fg = "red", bold = true },
+    { name = "*/", is = "link", fg = "cyan", bold = true },
+    { name = "*/", is = "sticky", fg = "blue", italic = true, bold = true },
+    { name = "*/", fg = "blue", bold = true },
+    { name = "*", is = "orphan", fg = "red" },
+    { name = "*", is = "link", fg = "cyan" },
+    { name = "*", is = "exec", fg = "lightgreen" },
+    { name = "*", is = "block", fg = "yellow" },
+    { name = "*", is = "char", fg = "yellow" },
+    { name = "*", is = "fifo", fg = "magenta" },
+    { name = "*", is = "sock", fg = "magenta" },
+    { name = "*", is = "sticky", italic = true },
+    { mime = "inode/x-empty", fg = "darkgray" },
+]
+
+[icon]
+# Yazi 0.3.0 and newer
+globs = []
+dirs = []
+files = []
+exts = []
+conds = []
+
+# Yazi 0.2.5 and older
+rules = []
