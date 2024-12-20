@@ -6,16 +6,16 @@ border_symbol = " "
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "gray", bg = "reset" }
 
-mode_normal = { bg = "darkgray", bold = true }
-mode_select = { bg = "cyan", bold = true }
+perm_type = { fg = "reset" }
+perm_read = { fg = "reset" }
+perm_write = { fg = "reset" }
+perm_exec = { fg = "reset" }
+perm_sep = { fg = "darkgray" }
 
-permissions_t = { fg = "reset" }
-permissions_r = { fg = "reset" }
-permissions_w = { fg = "reset" }
-permissions_x = { fg = "reset" }
-permissions_s = { fg = "darkgray" }
+[mode]
+normal_main = { bg = "darkgray", bold = true }
+select_main = { bg = "cyan", bold = true }
 
 [completion]
 icon_file    = ""

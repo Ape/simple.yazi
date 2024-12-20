@@ -15,5 +15,6 @@ Create `~/.config/yazi/theme.toml` and add:
 
 ```
 [flavor]
-use = "simple"
+dark = "simple"
+light = "simple"
 ```
