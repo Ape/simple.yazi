@@ -4,8 +4,8 @@ preview_hovered = { reversed = true }
 border_symbol = " "
 
 [status]
-separator_open  = ""
-separator_close = ""
+sep_left = { open = "", close = ""}
+sep_right = { open = "", close = ""}
 
 perm_type = { fg = "reset" }
 perm_read = { fg = "reset" }
@@ -17,7 +17,7 @@ perm_sep = { fg = "darkgray" }
 normal_main = { bg = "darkgray", bold = true }
 select_main = { bg = "cyan", bold = true }
 
-[completion]
+[cmp]
 icon_file    = ""
 icon_folder  = ""
 icon_command = ""
