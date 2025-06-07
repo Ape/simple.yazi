@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 cwd = { fg = "white" }
 preview_hovered = { reversed = true }
 border_symbol = " "
