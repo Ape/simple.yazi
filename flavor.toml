@@ -44,12 +44,8 @@ rules = [
 ]
 
 [icon]
-# Yazi 0.3.0 and newer
 globs = []
 dirs = []
 files = []
 exts = []
 conds = []
-
-# Yazi 0.2.5 and older
-rules = []
