@@ -24,18 +24,18 @@ icon_command = ""
 
 [filetype]
 rules = [
-    { name = "*/", is = "orphan", fg = "red", bold = true },
-    { name = "*/", is = "link", fg = "cyan", bold = true },
-    { name = "*/", is = "sticky", fg = "blue", italic = true, bold = true },
-    { name = "*/", fg = "blue", bold = true },
-    { name = "*", is = "orphan", fg = "red" },
-    { name = "*", is = "link", fg = "cyan" },
-    { name = "*", is = "exec", fg = "lightgreen" },
-    { name = "*", is = "block", fg = "yellow" },
-    { name = "*", is = "char", fg = "yellow" },
-    { name = "*", is = "fifo", fg = "magenta" },
-    { name = "*", is = "sock", fg = "magenta" },
-    { name = "*", is = "sticky", italic = true },
+    { url = "*/", is = "orphan", fg = "red", bold = true },
+    { url = "*/", is = "link", fg = "cyan", bold = true },
+    { url = "*/", is = "sticky", fg = "blue", italic = true, bold = true },
+    { url = "*/", fg = "blue", bold = true },
+    { url = "*", is = "orphan", fg = "red" },
+    { url = "*", is = "link", fg = "cyan" },
+    { url = "*", is = "exec", fg = "lightgreen" },
+    { url = "*", is = "block", fg = "yellow" },
+    { url = "*", is = "char", fg = "yellow" },
+    { url = "*", is = "fifo", fg = "magenta" },
+    { url = "*", is = "sock", fg = "magenta" },
+    { url = "*", is = "sticky", italic = true },
     { mime = "inode/x-empty", fg = "darkgray" },
 ]
 
