@@ -3,6 +3,10 @@ cwd = { fg = "white" }
 preview_hovered = { reversed = true }
 border_symbol = " "
 
+[indicator]
+preview = { reversed = true }
+padding = { open = "█", close = "█" }
+
 [status]
 sep_left = { open = "", close = ""}
 sep_right = { open = "", close = ""}
